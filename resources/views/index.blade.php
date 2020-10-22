@@ -36,41 +36,33 @@
 							<li><a title="works" href="#works">Works</a></li>
 							<li><a title="blog" href="#blog">Blog</a></li>
 							<li><a title="contact" href="#contact">Contact</a></li>
-							<li><a title="LOGIN" data-toggle="modal" href="#exampleModal">LOGIN</a></li>
+							<li><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">LOGIN</a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">New message</h5>
+				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<form>
-				<div class="form-group">
-					<label for="recipient-name" class="col-form-label">Recipient:</label>
-					<input type="text" class="form-control" id="recipient-name">
-				</div>
-				<div class="form-group">
-					<label for="message-text" class="col-form-label">Message:</label>
-					<input type="password" class="form-control" id="message-text">
-				</div>
-				</form>
+				<input type="text">
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Send message</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
 			</div>
 			</div>
 		</div>
-		</div>
+	</div>
 	<!-- Header area -->
 	<div id="header-wrapper" class="header-slider">
 		<header class="clearfix">
@@ -115,7 +107,9 @@
 					</blockquote>
 				</div>
 				<div class="span6 aligncenter flyRight">
-					<i class="icon-coffee icon-10x"></i>
+				<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-alarm" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+</svg>
 				</div>
 			</div>
 		</div>
@@ -626,6 +620,9 @@
 	<script src="js/animate.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="contactform/contactform.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 	
 
 </body>
